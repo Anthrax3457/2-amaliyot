@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Poppins&display=swap');
+
+.pages__container {
+    padding: 0px 16px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FD9426;
+}
+
+.pages__name {
+    margin-top: 95px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+}
+
+.pages__title {
+    margin-top: 10px;
+    color: white;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+}
+
+.pages__text {
+    margin-top: 30px;
+    letter-spacing: 0.2px;
+    color: white;
+    font-size: 14.3px;
+    line-height: 1.42857143;
+}
+.pages__content{
+    display: grid;
+    justify-content: center;
+}
+
+@media screen and (min-width: 760px) and (max-width: 990px) {
+    .pages__text {
+        width: 730px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pages__text {
+        width: 730px;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+    .pages__text {
+        width: 630px;
+    }
+}
+
+.pages__versoin {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 760px) and (max-width: 990px) {
+    .pages__versoin {
+        padding: 0px 12%;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+    .pages__versoin {
+        padding: 0px 3%;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+    .pages__versoin {
+        padding: 0px 12%;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.dark__container,
+.light__container {
+    margin-top: 65px;
+}
+
+.dark__container:hover .dark__name {
+    color: #191919;
+}
+
+.light__container:hover .light__name {
+    color: #191919;
+}
+
+.dark__name,
+.light__name {
+    margin-top: 5px;
+    color: white;
+    letter-spacing: -0.5px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.light__image,
+.dark__image {
+    margin-top: 5px;
+}

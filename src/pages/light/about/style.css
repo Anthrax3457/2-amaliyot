@@ -1,0 +1,94 @@
+.about__container {
+    margin-top: 100px;
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__name {
+    letter-spacing: -0.8px;
+    text-align: start;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #ffff;
+}
+
+.about__texts {
+    height: 300px;
+    padding: 0px 17%;
+    background: #fd9426;
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__text {
+    color: #ffff;
+    font-size: 14px;
+}
+
+.about__img {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 710px) {
+    .about__container {
+        display: flex;
+        gap: 80px;
+    }
+
+    .about__texts {
+        width: 400px;
+        height: 400px;
+        padding: 0px 6%;
+    }
+
+    .about__img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .about__texts {
+        margin-left: -10px;
+        width: 420px;
+        height: 420px;
+        padding: 0px 5%;
+    }
+    .about__img {
+        width: 250px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .about__texts {
+        margin-left: -70px;
+        width: 470px;
+        height: 470px;
+        padding: 0px 5%;
+    }
+    .about__img {
+        width: 280px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .about__container {
+        gap: 100px;
+    }
+    .about__texts {
+        margin-left: -200px;
+        width: 510px;
+        height: 470px;
+        padding: 0px 7%;
+    }
+    .about__text {
+        font-size: 15px;
+    }
+    
+    .about__img {
+        width: 270px;
+    }
+}

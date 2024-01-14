@@ -1,0 +1,247 @@
+.dark__head-content{
+display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.dark__head-name{
+font-weight: 700;
+color: #777777;
+}
+.dark__head-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+.dark__head-item{
+    color: #777777;
+    font-weight: 600;
+}
+.dark__head-itemm{
+    margin-top: 2%;
+    color: #FD9426;
+    font-weight: 600;
+}
+@media screen and (min-width: 360px) and (max-width:400px){
+    .dark__head-content{
+       padding: 10px 0px;
+        }
+    .dark__head-name{
+        font-size: 23px;
+        }
+        .dark__head-item{
+            letter-spacing: -0.5px;
+            font-size: 11px;
+            margin-top: 5px;
+        }
+        .dark__head-itemm{
+            font-size: 11px;
+            margin-top: 2%;
+            color: #FD9426;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+    .dark__head-content{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+    .dark__head-items{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 400px){
+    .dark__head-content{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+    .dark__head-name{
+        font-size: 28px;
+    }
+    .dark__head-items{
+        margin-left: 0;
+    }
+    
+}
+@media screen and (min-width: 477px){
+    .dark__head-content{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    
+    }
+    .dark__head-name{
+        font-size: 30px;
+    }
+    .dark__head-item{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 533px){
+    .dark__head-content{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    
+    }
+    .dark__head-name{
+        font-size: 34px;
+    }
+    .dark__head-item{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 600px){
+    .dark__head-content{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+    
+    }
+    .dark__head-name{
+        font-size: 40px;
+    }
+    .dark__head-item{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 650px){
+    .dark__head-content{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+    
+    }
+    .dark__head-name{
+        font-size: 45px;
+    }
+    .dark__head-item{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 700px){
+    .head-content{
+        display: flex;
+        gap: 80px;
+        height: 60px;
+        justify-content: center;
+    
+    }
+    .dark__head-name{
+        font-size: 48px;
+        margin-top: -10px;
+    }
+    .dark__dark__head-item{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 760px){
+    .dark__head-content{
+        display: flex;
+        gap: 80px;
+        height: 70px;
+        justify-content: center;
+    
+    }
+    .dark__head-name{
+        font-size: 48px;
+        margin-top: -10px;
+    }
+    .dark__head-item{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 780px){
+    .dark__head-content{
+        gap: 90px;
+    
+    }
+   
+}
+@media screen and (min-width: 850px){
+    .dark__head-content{
+        gap: 120px;
+    
+    }
+    .dark__head-name{
+        font-size: 50px;
+        margin-top: -10px;
+    }
+    .dark__head-item{
+        font-size: 16px;
+    }
+   
+}
+@media screen and (min-width: 890px){
+    .dark__head-content{
+        gap: 120px;
+    
+    }
+    .dark__head-name{
+        font-size: 50px;
+        margin-top: -10px;
+    }
+    .dark__head-item{
+        font-size: 16px;
+    }
+   
+}
+@media screen and (min-width: 1000px){
+    .dark__head-content{
+        gap: 190px;
+    }
+    .dark__head-items{
+        gap: 18px;
+    }
+   
+    .dark__head-name{
+        font-size: 60px;
+        margin-top: -10px;
+    }
+    .dark__head-item{
+        font-size: 18px;
+    }
+   
+}
+@media screen and (min-width: 1000px){
+   
+    .dark__head-content{
+        margin-left: -99px;
+        gap: 270px;
+        height: 85px;
+    }
+    .dark__head-items{
+        gap: 20px;
+    }
+   
+    .dark__head-name{
+        margin-top: -10px;
+    }
+    .dark__head-item{
+        font-size:19px;
+    }
+   
+}
+@media screen and (min-width: 1400px){
+   
+    .dark__head-content{
+        margin-left: -140px;
+        gap: 300px;
+        height: 85px;
+    }
+    .dark__head-items{
+        gap: 25px;
+    }
+   
+    .dark__head-name{
+        margin-top: -10px;
+    }
+    .dark__head-item{
+        font-size:22px;
+    }
+   
+}

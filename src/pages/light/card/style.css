@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Poppins&display=swap');
+
+.card__container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    width: 100%;
+}
+
+.card__name {
+    line-height: normal;
+    padding: 0px 50px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #FD9426;
+}
+
+.card__title {
+    padding: 0px 35px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+    letter-spacing: -0.5px;
+    color: #606060;
+}
+
+.card__text {
+    padding: 0px 18px;
+    color: #606060;
+    font-size: 14px;
+    font-weight: normal;
+
+    span {
+        color: #CE6B14;
+    }
+}
+
+.times__conatiner {
+    margin-top: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.time__content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.time__num {
+    box-shadow: 0px 1px 1px 1px #f1f1f1;
+    font-size: 40px;
+    color: #FD9426;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    background: #fff;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    margin-right: 0px;
+    margin-left: 0px;
+    right: 0px;
+}
+
+.time_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #FD9426;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    right: 0px;
+}
+
+@media screen and (min-width: 337px) {
+    .card__name {
+        padding: 0px 40px;
+        font-size: 33px;
+    }
+
+    .card__title {
+        margin-top: 15px;
+        font-size: 28px;
+    }
+
+    .times__conatiner {
+        gap: 25px;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (min-width: 540px) {
+    .times__conatiner {
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: auto auto;
+    }
+
+    .time__num {
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
+    }
+
+    .card__text {
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .card__text {
+        padding: 0px 120px;
+    }
+
+    .times__conatiner {
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: auto auto;
+    }
+
+    .time__num {
+        width: 170px;
+        height: 170px;
+        line-height: 160px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .content {
+        margin-top: -50px;
+        /* width: 600px; */
+        border: none;
+        box-shadow: none;
+    }
+
+    .dark_card__text {
+        padding: 0px 10%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    /* .content {
+        margin-top: -50px;
+        width: 100%;
+        padding: 50px 20%;
+        box-shadow: 0px 0px 1px 1px #121212;
+    } */
+
+
+}
+
+
+@media screen and (min-width: 970px) {
+    .content {
+        margin-top: -50px;
+        width: 900px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .content {
+        margin-top: -50px;
+        width: 900px;
+    }
+
+    .times__conatiner {
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .content {
+        margin-top: -100px;
+        width: 1100px;
+    }
+
+    .time__num {
+        margin-top: 5px;
+    }
+}

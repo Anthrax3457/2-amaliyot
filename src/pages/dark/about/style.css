@@ -1,0 +1,93 @@
+.dark_about__container {
+    margin-top: 100px;
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark_about__name {
+    letter-spacing: -0.8px;
+    text-align: start;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #101010;
+}
+
+.dark_about__texts {
+    height: 300px;
+    padding: 0px 17%;
+    background: #fd9426;
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark_about__text {
+    font-size: 14px;
+}
+
+.dark_about__img {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 710px) {
+    .dark_about__container {
+        display: flex;
+        gap: 80px;
+    }
+
+    .dark_about__texts {
+        width: 400px;
+        height: 400px;
+        padding: 0px 6%;
+    }
+
+    .dark_about__img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .dark_about__texts {
+        margin-left: -10px;
+        width: 420px;
+        height: 420px;
+        padding: 0px 5%;
+    }
+    .dark_about__img {
+        width: 250px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .dark_about__texts {
+        margin-left: -70px;
+        width: 470px;
+        height: 470px;
+        padding: 0px 5%;
+    }
+    .dark_about__img {
+        width: 280px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .dark_about__container {
+        gap: 100px;
+    }
+    .dark_about__texts {
+        margin-left: -210px;
+        width: 510px;
+        height: 470px;
+        padding: 0px 7%;
+    }
+    .dark_about__text {
+        font-size: 15px;
+    }
+    
+    .dark_about__img {
+        width: 270px;
+    }
+}

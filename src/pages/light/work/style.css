@@ -1,0 +1,123 @@
+.work__name {
+    text-align: center;
+    letter-spacing: -0.8px;
+    text-align: center;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #606060;
+}
+
+.work__text {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px 27%;
+    font-size: 14px;
+    color: #606060;
+}
+
+.work__items {
+    padding: 50px 0px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+.work__items-icon {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #FD9426;
+    font-size: 20px;
+}
+
+.work__items-title {
+    text-align: center;
+    letter-spacing: -0.8px;
+    text-align: center;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+.work__items-text {
+    padding: 0px 90px;
+    text-align: center;
+    letter-spacing: -0.8px;
+    text-align: center;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}
+
+@media screen and (min-width: 375px) and (max-width: 485px) {
+    .work__items-content {
+        display: grid;
+        justify-content: center;
+    }
+
+    .work__items {
+        padding: 30px 0px;
+        border: #101010;
+    }
+}
+
+@media screen and (min-width: 485px) {
+    .work__text {
+        padding: 0px 20%;
+    }
+
+    .work__items {
+        padding: 30px 0px;
+    }
+
+    .work__items-text {
+        padding: 0px 60px;
+    }
+
+    .work__items-content {
+        padding: 0px 10%;
+        display: grid;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 778px) {
+
+    .work__items-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .work__items-text {
+        padding: 0px 2%;
+    }
+    .work__content {
+        width: 390px;
+  
+      }
+}
+
+@media screen and (min-width: 1400px) {
+    .work__items-content {
+        padding: 0px 5%;
+    }
+      .work__items-text {
+        padding: 0px 10px;
+    }
+    .work__content {
+      width: 450px;
+
+    }
+    .work__container{
+        width: 1100px;
+    }
+
+}

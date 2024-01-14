@@ -1,0 +1,72 @@
+.dark_home__container {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../../assets/Images/home-bg.jpg');
+}
+
+.dark_home__content {
+    padding: 0px 15px;
+    padding-top: 110px;
+    display: grid;
+    gap: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark_home__title {
+    background: #101010;
+    width: 230px;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: #606060;
+}
+
+@media screen and (min-width: 480px)  {
+    .dark_home__title {
+        font-size: 55px;
+        height: 80px;
+        width: 410px;
+    }
+
+}
+
+.dark_home__text {
+    display: grid;
+    align-items: center;
+    background: #101010;
+    padding: 0px 16px;
+    text-align: start;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 44px;
+    color: #fd9426;
+}
+
+@media screen and (min-width: 480px) and (max-width: 570px) {
+    .dark_home__text {
+        font-size: 52px;
+    }
+
+}
+
+@media screen and (min-width: 570px) {
+    .dark_home__text {
+        font-size: 49px;
+        padding: 10px 10px;
+    }
+     .dark_home__title {
+        font-size: 55px;
+        height: 80px;
+        width: 510px;
+    }
+
+}
